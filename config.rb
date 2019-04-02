@@ -16,7 +16,9 @@ configure :build do
   set :relative_links, true
 end
 
+
 activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
   deploy.build_before = true
-  deploy.deploy_method = :git
 end
