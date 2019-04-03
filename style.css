@@ -1,18 +1,45 @@
-body {
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background-image: url("x.jpg") 50% 50% no-repeat;
-  -webkit-background-size: cover;
+.banner {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("mac.jpg");
+  */
+  background-image: url("mac.jpg");
   background-size: cover;
   background-position: center;
-  font-family: sans-serif;
-}
+ }
 
-.content-title{
-  margin-top: 100px;
-  color: #fff;
-  text-transform: uppercase;
-  transition: all 4s ease-in-out;
-}
+ .banner-content{
+  top: 4em;
+  right: 2em;
+    text-transform: capitalize;
+    position: absolute;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    transition: height 2s;
+ }
+
+
+
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+
+  p {
+    color: white;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: lighter;
+
+  }
+
+  .btn {
+    background-color: pink;
+    padding: 15px 50px;
+  }
+
