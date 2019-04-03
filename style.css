@@ -12,6 +12,9 @@
  }
 
  .banner-content{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+
   top: 4em;
   right: 2em;
     text-transform: capitalize;
